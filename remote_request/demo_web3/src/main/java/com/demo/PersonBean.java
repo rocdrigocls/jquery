@@ -11,7 +11,7 @@ public class PersonBean {
 
 	@Override
 	public String toString() {
-		return String.format("[id:%s, name:%s, edad:%s]  ", id, name, edad);
+		return String.format("[id:%s, name:%s, edad:%s]", id, name, edad);
 	}
 	
 	public String getName() {
